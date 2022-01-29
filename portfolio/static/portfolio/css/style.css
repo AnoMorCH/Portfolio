@@ -320,7 +320,7 @@ h3 {
     color: #eed01d;
     font-size: 500px;
     text-align: center;
-}
+}*/
 
 .warning {
     display: flex;
@@ -332,8 +332,7 @@ h3 {
     width: 100%;
     justify-content: center;
     text-align: center;
-    font-weight: bold;
-}*/
+}
 
 /* 8. Responsive Design */
 
