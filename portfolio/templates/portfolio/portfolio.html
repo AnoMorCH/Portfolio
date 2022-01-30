@@ -239,14 +239,14 @@
                 <p class="counter"><span>X</span> symbols are left</p>
 
                 <button type="submit" class="btn btn-warning btn-lg bold-font">Submit</button>
+
+                {% if messages %}
+                    {% for message in messages %}
+                        <div class="center-text">{{ message }}</div>
+                    {% endfor %}
+                {% endif %}
             </form>
         </div>
-
-        {% if messages %}
-            {% for message in messages %}
-                <div class="center-text">{{ message }}</div>
-            {% endfor %}
-        {% endif %}
     </div>
 </main>
 
