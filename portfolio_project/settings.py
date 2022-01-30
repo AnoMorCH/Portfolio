@@ -33,8 +33,8 @@ SECRET_KEY = env('SECRET_KEY')
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    'anomorch-portfolio-project.herokuapp.com',
-    '127.0.0.1',
+    env('ALLOWED_HOST1'),
+    env('ALLOWED_HOST2'),
 ]
 
 
